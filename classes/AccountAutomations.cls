@@ -26,4 +26,8 @@ public class AccountAutomations {
         a.website = 'www.copa.do'; 
         return a;
     }
+    public static Account setDefaultURL2(Account a) {
+        a.website = 'www.copa.do'; 
+        return a;
+    }
 }
