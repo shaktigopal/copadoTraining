@@ -37,6 +37,7 @@ private class AccountAutomationsTest {
     }
 
     @isTest static void testDefaultURL(){
+    system.debug('test');
         Account acc = new Account(Name = 'My Test Account');
         insert acc;
         acc = AccountAutomations.setDefaultURL(acc);
